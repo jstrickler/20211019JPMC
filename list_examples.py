@@ -57,5 +57,41 @@ print(cities)
 # x = cities.pop()
 
 #  del LIST[pos]     LIST.pop(pos=-1)     LIST.remove(value)
+print(cities[0], cities[4], cities[-1])
+
+print(cities[0:3])  # slice     start:stop
+print(cities[3:5])
+print(cities[:4])
+print(cities[5:])
+print(cities[-3:])  # last 3 items
+#    0         1
+#    0123456789012345
+s = "J P Morgan Chase"
+print(s[4:10], s[-5:], s[11:], s[:3])
+
+#  []  lookup operator
+#  (xxx) precedence
+#  thing()   call a thing
+
+#  for VAR ... in ITERABLE:
+#      ....
+
+print()
+for city in cities:  #  similar to foreach in other languages
+    # city = next element of cities
+    print(city)
+print()
+
+for color in 'red purple yellow orange black'.split():
+    print(color.upper())
+print()
+
+s = 'abc'
+#
+for letter in s:
+    print(letter)
+print('\n')  # outputs '\n\n'
+
+
 
 

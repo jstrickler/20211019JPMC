@@ -7,3 +7,5 @@ fruits = [
     'BaNaNa', 'Persimmon   '
 ]
 
+# put answers here ...
+
