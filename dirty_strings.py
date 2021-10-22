@@ -10,3 +10,10 @@ spam = [
     "Spam",
     "   Spam,    spam, spam,    spam, spam, eggs, and spam      ",
 ]
+
+def cleanup(s):
+    pass
+
+for dirty in spam:
+    clean = cleanup(dirty)
+    print(f">{dirty}< >{clean}<")
